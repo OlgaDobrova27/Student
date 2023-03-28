@@ -17,6 +17,7 @@ public class Student {
         Student s1 = new Student(111);
         Student s2 = new Student(111);
         Student s3 = s1;
-        Syste
+        System.out.println(s1.equals(s2));
+        System.out.println(s1.equals(s3));
     }
 }
